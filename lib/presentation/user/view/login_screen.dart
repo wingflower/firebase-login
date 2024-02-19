@@ -14,11 +14,15 @@ class LoginScreen extends StatelessWidget {
             TextFormField(
               controller: emailController,
             ),
-            ElevatedButton(onPressed: () {}, child: Text('로그인')),
+            ElevatedButton(onPressed: () {
+              // 로그인 작업 수행
+            }, child: Text('로그인')),
             TextFormField(
               controller: passwordController,
             ),
-            ElevatedButton(onPressed: () {}, child: Text('회원 가입')),
+            ElevatedButton(onPressed: () {
+              // 회원가입 화면 이동
+            }, child: Text('회원 가입')),
           ],
         ),
       ),
